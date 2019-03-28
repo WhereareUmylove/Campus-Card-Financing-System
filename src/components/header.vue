@@ -53,6 +53,7 @@
 </template>
 
 <script>
+import { Message } from "element-ui";
 export default {
   data() {
     return {
@@ -87,6 +88,11 @@ export default {
         .then(result => {
           if (result.body.code == 200) {
             localStorage.setItem("login", this.nam);
+            Message({
+              message: "登录成功",
+              type: "success",
+              duration: 1000
+            });
             this.nam = null;
             this.pwd = null;
             this.loginBox = false;
@@ -117,7 +123,7 @@ export default {
           params: { number: localStorage.getItem("login") }
         })
         .then(res => {
-          this.$store.commit("upData",res.body.code)
+          this.$store.commit("upData", res.body.code);
         });
     }
   },
