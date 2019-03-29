@@ -2,4 +2,4 @@
 校园卡理财系统
 
 
-<p>https://htmlpreview.github.io/?https://github.com/WhereareUmylove/Campus-Card-Financing-System/blob/master/dist/index.html</p>
+<p>http://www.youngonest.com:3333/indexs#/%E6%AC%A2%E8%BF%8E</p>
