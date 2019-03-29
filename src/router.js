@@ -42,7 +42,7 @@ const router = new VueRouter({
             component: Rechange
         },
         {
-            path: "/挂失补办",
+            path: "/挂失/取消挂失",
             component: Reissue
         },
         {

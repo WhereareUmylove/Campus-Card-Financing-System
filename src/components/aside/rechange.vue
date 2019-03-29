@@ -6,7 +6,7 @@
       <input type="hidden" name="cmd" value="_xclick">
       <input type="hidden" name="business" value="306892120@qq.com">
       <input type="hidden" name="lc" value="US">
-      <input type="hidden" name="item_name" v-model="acount">
+      <input type="hidden" name="item_name" v-model="acount" value="recharge">
       <input type="hidden" name="item_number" value="recharge">
       <input type="hidden" name="amount" v-model="amount">
       <input type="hidden" name="currency_code" value="CNY">
@@ -15,12 +15,7 @@
       <input type="hidden" name="tax_rate" value="0.000">
       <input type="hidden" name="shipping" value="0.00">
       <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynow_LG.gif:NonHostedGuest">
-      <input
-        type="submit"
-        value="确定"
-        border="0"
-        name="submit"
-      >
+      <input type="submit" value="确定" border="0" name="submit">
       <img
         alt
         border="0"
@@ -37,20 +32,19 @@ export default {
   data() {
     return {
       amount: null,
-      acount:null
+      acount: null
     };
   },
-  methods: {
-  },
-  created(){
-    this.acount = localStorage.getItem("login")
+  methods: {},
+  created() {
+    this.acount = localStorage.getItem("login");
   }
 };
 </script>
 <style lang="less" scoped>
-  input{
-    margin-right: 10px;
-  }
+input {
+  margin-right: 10px;
+}
 </style>
 
 

@@ -150,6 +150,7 @@ export default {
 <style lang="less" scoped>
 .lightContent {
   z-index: 3;
+  height: ;
 }
 .lightAlert {
   z-index: 2;
@@ -284,6 +285,7 @@ export default {
     padding: 3vh;
     width: 80vw;
     height: 25vh;
+    min-height: 140px;
     left: 10vw;
     top: 20vh;
     background: rgba(255, 255, 255, 1);
@@ -313,7 +315,9 @@ export default {
     left: calc(-10vw - 3vh);
   }
   .lightContent > div {
-    padding: 3vw;
+    // padding: 3vw;
+    margin: 7px;
+    height: 35px !important;
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1200px) {

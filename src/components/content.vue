@@ -28,8 +28,8 @@
         <transition name="fade" enter-active-class="animated rubberBand">
           <div v-if="p2">
             <div>
-              <router-link to="/挂失补办">
-                <div class="list">挂失补办</div>
+              <router-link to="/挂失/取消挂失">
+                <div class="list">挂失/取消挂失</div>
               </router-link>
             </div>
             <div>
@@ -92,8 +92,8 @@
       </div>
       <p>个人管理</p>
       <div>
-        <router-link to="/挂失补办">
-          <div class="list">挂失补办</div>
+        <router-link to="/挂失/取消挂失">
+          <div class="list">挂失/取消挂失</div>
         </router-link>
       </div>
       <div>
